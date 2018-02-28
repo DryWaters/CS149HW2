@@ -1,10 +1,10 @@
 /*
- * Sudoku.c
+ * sudoku_DanielWaters_692.c
  *
  *  Created on: Feb 27, 2018
- *      Author: daniel
+ *      Author: Daniel Waters
+ *      CSUID:  011872692
  */
-
 #include <stdlib.h>
 #include <pthread.h>
 #include <stdio.h>
@@ -37,7 +37,6 @@ void printArray();
 int checkResults(parameters*);
 
 int main() {
-
 	parameters *data = (parameters *) malloc(MAX_THREADS * sizeof(parameters));
 
 	pthread_t tid[MAX_THREADS];
