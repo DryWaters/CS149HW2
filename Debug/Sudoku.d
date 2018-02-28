@@ -1,1 +1,0 @@
-Sudoku.d: ../Sudoku.c
