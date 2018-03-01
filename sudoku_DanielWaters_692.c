@@ -51,7 +51,7 @@ int errorInResults(parameters*);
 // return 1 (true) if they occur more than once
 int exceedsOccurrences(int[]);
 
-int main() {
+int main(void) {
 	printf("CS149 Sudoku from Daniel Waters\n\n");
 
 	// hold return code for error checking threads
