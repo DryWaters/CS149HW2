@@ -218,8 +218,8 @@ int exceedsOccurrences(int occurances[]) {
 
 // print the hard-coded puzzle to stdout
 void printArray() {
-	for (int i = 0; i < 9; i++) {
-		for (int j = 0; j < 9; j++) {
+	for (int i = 0; i < PUZZLE_SIZE; i++) {
+		for (int j = 0; j < PUZZLE_SIZE; j++) {
 			printf("%d ", puzzle[i][j]);
 		}
 		printf("\n");
