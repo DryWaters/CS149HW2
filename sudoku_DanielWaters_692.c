@@ -3,7 +3,7 @@
  *
  *  Created on: Feb 27, 2018
  *      Author: Daniel Waters
- *      CSUID:  011872692
+ *      CSUID:  692
  */
 #include <stdlib.h>
 #include <pthread.h>
